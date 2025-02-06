@@ -1,6 +1,9 @@
 -- Crear base de datos
 CREATE DATABASE gymapp;
 
+-- Usar la base de datos 
+USE DATABASE gymapp;
+
 -- Tabla de administradores
 CREATE TABLE admins (
     id SERIAL PRIMARY KEY,
